@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <string>
 using namespace std;
 
@@ -30,9 +31,9 @@ string parse(string str) {
     int len = 0;
     bool minus = str[0] == '-';
     string number;
-    if (minus) {
+/*    if (minus) {
         str.erase(0, 1);
-    }
+    }*/
 
     if (str[0] == '0') {
         int index;
@@ -45,15 +46,20 @@ string parse(string str) {
         len++;
         number += str[i];
     }
+
+
     return number;
 }
 
 string wholeNumbersComparison(string number1, string number2) {
-
-    if (number1.length() > number2.length() || (number2[0] == '-' && number1[0] != '-')) {
-        return "More";
-    } else if (number1.length() < number2.length() || (number1[0] == '-' && number2[0] != '-')) {
+    if (number1[0] == '-' && number2[0] != '-') {
         return "Less";
+    } else if (number2[0] == '-' && number1[0] != '-') {
+        return "More";
+    } else if (number2.length() > number1.length()) {
+        return "Less";
+    } else if (number2.length() < number1.length()) {
+        return "More";
     } else if (number1[0] != '-' && number2[0] != '-'){
         for (int i = 0; i < number1.length(); i++) {
             if (number1[i] > number2[i]) {
@@ -109,10 +115,13 @@ void longNumbersComparison(string number1, string number2) {
     string firstNumber = parse(number1);
     string secondNumber = parse(number2);
     if (wholeNumbersComparison(firstNumber, secondNumber) == "Equal") {
+        int eraseIndex1 = number1.find('.');
+        if (eraseIndex1 == -1) eraseIndex1 = number1.length() - 1 ;
+        int eraseIndex2 = number2.find('.');
+        if (eraseIndex2 == -1) eraseIndex2 = number2.length() - 1;
 
-        number1.erase(0, firstNumber.length()+1);
-        number2.erase(0, secondNumber.length()+1);
-
+        number1.erase(0, eraseIndex1 + 1);
+        number2.erase(0, eraseIndex2 + 1);
         cout << floatNumberComparison(number1, number2);
     } else {
         cout << wholeNumbersComparison(firstNumber, secondNumber);
