@@ -75,27 +75,27 @@ include CMakeFiles/14_6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/14_6.dir/flags.make
 
-CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj: CMakeFiles/14_6.dir/flags.make
-CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj: ../14_6_4_Comparison.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\CLionProjects\Skillbox\14.6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\14_6.dir\14_6_4_Comparison.cpp.obj -c W:\CLionProjects\Skillbox\14.6\14_6_4_Comparison.cpp
+CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj: CMakeFiles/14_6.dir/flags.make
+CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj: ../14_6_5_TicTacToe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\CLionProjects\Skillbox\14.6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\14_6.dir\14_6_5_TicTacToe.cpp.obj -c W:\CLionProjects\Skillbox\14.6\14_6_5_TicTacToe.cpp
 
-CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E W:\CLionProjects\Skillbox\14.6\14_6_4_Comparison.cpp > CMakeFiles\14_6.dir\14_6_4_Comparison.cpp.i
+CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E W:\CLionProjects\Skillbox\14.6\14_6_5_TicTacToe.cpp > CMakeFiles\14_6.dir\14_6_5_TicTacToe.cpp.i
 
-CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\CLionProjects\Skillbox\14.6\14_6_4_Comparison.cpp -o CMakeFiles\14_6.dir\14_6_4_Comparison.cpp.s
+CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\CLionProjects\Skillbox\14.6\14_6_5_TicTacToe.cpp -o CMakeFiles\14_6.dir\14_6_5_TicTacToe.cpp.s
 
 # Object files for target 14_6
 14_6_OBJECTS = \
-"CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj"
+"CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj"
 
 # External object files for target 14_6
 14_6_EXTERNAL_OBJECTS =
 
-14_6.exe: CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj
+14_6.exe: CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj
 14_6.exe: CMakeFiles/14_6.dir/build.make
 14_6.exe: CMakeFiles/14_6.dir/linklibs.rsp
 14_6.exe: CMakeFiles/14_6.dir/objects1.rsp

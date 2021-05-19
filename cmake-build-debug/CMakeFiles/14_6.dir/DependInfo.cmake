@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "W:/CLionProjects/Skillbox/14.6/14_6_4_Comparison.cpp" "W:/CLionProjects/Skillbox/14.6/cmake-build-debug/CMakeFiles/14_6.dir/14_6_4_Comparison.cpp.obj"
+  "W:/CLionProjects/Skillbox/14.6/14_6_5_TicTacToe.cpp" "W:/CLionProjects/Skillbox/14.6/cmake-build-debug/CMakeFiles/14_6.dir/14_6_5_TicTacToe.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="W:/CLionProjects/Skillbox/14.6/14_6_4_Comparison.cpp">
+		<Unit filename="W:/CLionProjects/Skillbox/14.6/14_6_5_TicTacToe.cpp">
 			<Option target="14_6"/>
 		</Unit>
 		<Unit filename="W:/CLionProjects/Skillbox/14.6/CMakeLists.txt">
