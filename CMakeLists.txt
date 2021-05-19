@@ -3,4 +3,4 @@ project(14_6)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(14_6 14_6_4_Comparison.cpp)
+add_executable(14_6 14_6_5_TicTacToe.cpp)
